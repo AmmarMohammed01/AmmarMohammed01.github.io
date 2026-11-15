@@ -26,10 +26,12 @@ li {
 
     display: flex;
     align-items: center;
+    justify-content: center;
+    column-gap: 10px;
 }
 
 .github-icon {
-    width: 100px;
+    max-width: 75px; /* 100, 75px */
     border-radius: 50px;
     display: inline-block;
 
@@ -38,11 +40,9 @@ li {
 }
 
 .github-username {
-    flex: 1;
-
     display: inline-block;
-    font-size: 30px;
-    text-align: center;
+    font-size: 1.5rem; /* 30px */
+    /* text-align: center; */
 
     background: linear-gradient(rgb(0,255,255), rgb(0,50,255));
     -webkit-background-clip: text;
