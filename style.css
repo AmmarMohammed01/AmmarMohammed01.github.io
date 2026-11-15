@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.github-info {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.github-icon {
+    width: 100px;
+    border-radius: 50px;
+    display: inline-block;
+
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.github-username {
+    flex: 1;
+
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+
+    background: linear-gradient(rgb(0,255,255), rgb(0,50,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.socials-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.socials-icons {
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.socials-icons:hover {
+    background: linear-gradient(rgb(0,255,255), rgb(0,100,255));
+}
+
+.socials-icons:active {
+    background: rgb(0, 100, 255);
+}
+
+.linkedin-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.section-template {
+    background-color: rgba(255,255,255,10%);
+    border-radius: 30px;
+
+    margin: 30px 30px;
+    padding: 20px;
+
+    min-height:400px;
+}
+
+.section-title
+{
+    font-size: 25px;
+}
