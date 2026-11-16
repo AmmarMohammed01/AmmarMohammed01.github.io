@@ -8,8 +8,13 @@ a {
     text-decoration: none;
 }
 
+ul {
+    padding-left: 30px;
+}
+
 li {
     margin: 10px 0;
+    padding-left: 10px;
     font-size: 18px;
 }
 
@@ -87,4 +92,41 @@ li {
 .section-title
 {
     font-size: 25px;
+}
+
+.project-container {
+    background-color: rgba(255,255,255,30%);
+    padding: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.project-links-container {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.a-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.a-button:hover {
+    background: linear-gradient(rgb(0,255,255), rgb(0,100,255));
+}
+
+.a-button-icon-text-duo {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
 }
